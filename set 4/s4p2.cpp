@@ -11,15 +11,15 @@ class Rectangle
     }
 };
 void Display(Rectangle r){
-    cout<<"length="<< r.length<<endl;
-    cout<<"breadth="<< r.breadth<<endl;
+    cout<<"length="<<r.length<<endl;
+    cout<<"breadth="<<r.breadth<<endl;
 }
 void scale(Rectangle &r)
 {
     r.length*=2;
     r.breadth*=2;
-    cout<<"length="<< r.length<<endl;
-    cout<<"breadth="<< r.breadth<<endl;
+    cout<<"length="<<r.length<<endl;
+    cout<<"breadth="<<r.breadth<<endl;
 }
     int main ()
     {
